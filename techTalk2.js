@@ -32,32 +32,3 @@ function getAvgScore(students) {
 }
 
 getAvgScore(students);
-
-// function getAvgScore(students) {
-//   // Iterate over each student in the object
-//   for (let student in students) {
-//     let scores = students[student]; // Get the scores array for the current student
-
-//     let sum = 0;
-
-//     // Calculate the sum of scores for the current student
-//     for (let i = 0; i < scores.length; i++) {
-//       sum += scores[i];
-//     }
-
-//     // Calculate the average score for the current student
-//     let avg = sum / scores.length;
-
-//     // Print or log the student's name and average score
-//     console.log(`${student}: Average score = ${avg}`);
-//   }
-// }
-
-// // Example usage with the students object
-// const students = {
-//   Alice: [85, 90, 92],
-//   Bob: [78, 81, 85],
-//   Charlie: [88, 87, 91],
-// };
-
-// getAvgScore(students);
